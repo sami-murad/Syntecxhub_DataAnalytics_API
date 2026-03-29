@@ -1,43 +1,29 @@
-# 🔐 Syntecxhub User Authentication API
+📊 Data Analytics API (MongoDB Aggregation Pipeline)
 
-A secure RESTful authentication API built with **Node.js**, **Express**, and **MongoDB Atlas**.  
-This project provides user registration, login, JWT-based authentication, and protected routes.
+This project is a backend API built to perform advanced data analytics using the MongoDB Aggregation Pipeline. It processes and analyzes data efficiently, providing meaningful insights such as category-based summaries and monthly statistics.
 
----
+🚀 Features
+📌 Data Grouping & Summaries
+Aggregate data by categories
+Generate meaningful grouped insights
+🗂 Notes per Category Analytics
+Count and analyze notes based on categories
+Identify trends across different segments
 
-## 🚀 Features
+📅 Monthly Statistics
+Track data trends over time
+Monthly breakdown of records
+🛠 Tech Stack
+Node.js – Backend runtime
+Express.js – Web framework
+MongoDB Atlas – Cloud database
+MongoDB Aggregation Pipeline – Data processing engine
 
-✅ User Registration  
-✅ User Login  
-✅ Password Hashing (bcrypt)  
-✅ JWT Authentication  
-✅ Protected Routes  
-✅ MongoDB Atlas Integration  
-✅ Environment Variables (.env)
-
----
-
-## 🛠 Tech Stack
-
-- Node.js
-- Express.js
-- MongoDB (Atlas)
-- Mongoose
-- bcryptjs
-- JSON Web Token (JWT)
-- dotenv
-- CORS
-
----
-
-## 📂 Project Structure
-
-Syntecxhub_UserAuth_API/
-│── controllers/
-│── models/
-│── routes/
-│── middleware/
-│── config/
-│── .env
-│── server.js
-│── package.json
+📁 Project Structure
+├── controllers/
+├── routes/
+├── models/
+├── config/
+├── app.js
+├── package.json
+└── README.md
